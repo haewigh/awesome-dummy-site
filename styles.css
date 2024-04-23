@@ -1,0 +1,135 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+#level1 {
+    background-color: #1F2937;
+    padding: 20px 100px 80px;
+}
+#level2, #level3 {
+    padding: 80px 150px;
+}
+#level4 {
+    padding: 80px 100px;
+}
+header ul {
+    display: flex;
+    gap: 10px;
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    
+}
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+header p.logo {
+    font-size: 24px;
+    font-weight: 600;
+    color: #F9FAF8
+}
+h1 {
+    font-size: 48px;
+    font-weight: extra-bold;
+    color: #F9FAF8
+}
+#level1 .hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 50px;
+}
+.hero .hero-left {
+    width: 50%;
+
+}
+.hero .hero-image {
+    width: 50%;
+}
+
+.hero p, nav a {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+.hero p {
+    padding: 3px 0;
+}
+nav a {
+    text-decoration: none;
+}
+.hero-left button, .cta button {
+    background-color: #3882f6;
+    font-size: 14px;
+    color: white;
+    padding: 4px 15px;
+    border-radius: 8px;
+}
+#level2 h2 {
+    font-size: 36px;
+    font-weight: extra-bold;
+    color: #1F2937;
+    text-align: center;
+}
+#level2 .display {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 50px;
+}
+.display .card {
+    width: 20%;
+}
+.card img {
+    width: 100%;
+    height: 100%;
+    border: 1px solid black;
+}
+.card p {
+    font-size: 12px;
+    text-align: center;
+    color: #777d86;
+}
+#level3 {
+    background-color: #E5E7EB;  
+}
+#level3 p {
+    font-size: 36px;
+    font-weight: light;
+    font-style: italic;
+    color: #1F2937; 
+}
+#level3 p.quote {
+    font-size: 20px;
+    text-align: right;
+    font-weight: bold;
+}
+#level4 .cta {
+    background-color: #3882f6;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 60px;
+    border-radius: 10px;
+}
+.cta .cta-left {
+    width: 60%;
+}
+.cta-left p {
+    font-size: 12px;
+}
+.cta button {
+    border: 2px solid white;
+}
+footer {
+    background-color: #1F2937;
+    color: #E5E7EB;
+    text-align: center;
+    padding: 30px;
+    font-size: 16px;
+}
